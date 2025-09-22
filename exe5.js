@@ -34,7 +34,7 @@ const estudantes = [
   }
 ];
 
-// Função para calcular a média de um aluno
+
 function calcularMedia(notas) {
   let soma = 0;
   for (let i = 0; i < notas.length; i++) {
@@ -43,7 +43,7 @@ function calcularMedia(notas) {
   return soma / notas.length;
 }
 
-// Função que retorna o aluno com maior média geral
+
 function melhorAluno(lista) {
   let melhor = lista[0];
   let melhorMedia = calcularMedia(melhor.notas);
@@ -62,5 +62,6 @@ function melhorAluno(lista) {
   };
 }
 
-// Testando a função
+
 console.log(melhorAluno(estudantes));
+
